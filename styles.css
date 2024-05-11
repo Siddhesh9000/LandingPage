@@ -1,0 +1,197 @@
+/* Custom Styles (styles.css) */
+
+body {
+    background-color: #f8f9fa;
+    color: #333; /* Default text color */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #ffffff; /* Text color in dark mode */
+}
+
+header {
+    background-color: #ffffff; /* Default header background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+.dark-mode header {
+    background-color: #333; /* Header background color in dark mode */
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* .hero {
+    background-image: url('./jeremy-bishop-rqWoB4LFgmc-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #333; 
+}
+
+.hero a {
+    display: inline-block;
+    background-color: #ff6f61;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.hero a:hover {
+    background-color: #e65f51;
+} */
+
+.hero {
+    background-image: url('./jeremy-bishop-rqWoB4LFgmc-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Add position relative */
+}
+
+.hero-content {
+    text-align: center;
+    position: relative; /* Add position relative */
+    z-index: 1; /* Ensure content is above background image */
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #c9c6c6;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #c9c6c6; 
+}
+
+.hero a {
+    display: inline-block;
+    background-color: #ff6f61;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.hero a:hover {
+    background-color: #e65f51;
+}
+
+
+.features {
+    padding: 100px 0;
+    background-color: #b02a37;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.feature {
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333; /* Ensure text color in dark mode */
+}
+
+
+.cards {
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #ffffff; /* Default card background color */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    transition: transform 0.3s ease;
+    color: #333; /* Default text color */
+}
+
+.dark-mode .card {
+    background-color: #333; /* Card background color in dark mode */
+    color: #ffffff; /* Text color in dark mode */
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.card {
+    color: #333; /* Default text color */
+}
+
+.dark-mode .card {
+    color: #ffffff; /* Text color in dark mode */
+}
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-auto">
+                    <h1>Landing Page</h1>
+                </div>
+                <div class="col-auto">
+                    <button id="theme-toggle" class="btn btn-primary">Toggle Theme</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <div class="hero-content">
+                            <h1>Welcome to Our Landing Page</h1>
+                            <p>Explore the amazing features!</p>
+                            <a href="#features" class="btn btn-lg btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="features" class="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="feature">
+                            <h2>Smooth Animations</h2>
+                            <p>Experience seamless transitions with GSAP.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature">
+                            <h2>Dark/Light Mode Toggle</h2>
+                            <p>Toggle between dark and light themes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cards">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Responsive Cards</h3>
+                                <p class="card-text">These cards are responsive and have smooth hover animations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Responsive Cards</h3>
+                                <p class="card-text">These cards are responsive and have smooth hover animations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Responsive Cards</h3>
+                                <p class="card-text">These cards are responsive and have smooth hover animations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+    <script src="dark-mode.js"></script>
+</body>
+</html>
